@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 
 const connection_URL = 'mongodb+srv://project2:project2@cluster0.nh4rgg4.mongodb.net/?retryWrites=true&w=majority'
-const PORT = process.env.PORT || 5000;
+const PORT = 'https://lost2.onrender.com/'
 
 mongoose.set("strictQuery", false)
 mongoose.
